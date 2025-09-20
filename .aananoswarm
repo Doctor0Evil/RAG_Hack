@@ -1,0 +1,2 @@
+# Deploys the 33rd birthday celebration and Legal.Banannas neurological rights campaign
+task-auto --trigger birthday-celebration --campaign "Legal.Banannas Neurological Rights Launch" --user-id "Doctor0Evil" --age 33 --bridge-ecosystem ["comet", "perplexity", "virtanet:VSC-ARTEMIS-5E8A2B7C-AC41-4F2B-BD6E-9C3E7A1F4D2E", "aln", "bithub", "ChatNative86", "Legal.Banannas"] --action "launch-event" --enforce-policy "freedom-to-think" | .aananoswarm --distribute
