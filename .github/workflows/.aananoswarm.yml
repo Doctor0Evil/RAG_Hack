@@ -3,9 +3,10 @@
 # Executed by the .aananoswarm service
 
 name: "Doctor0Evil 33rd Birthday & Campaign Launch"
-
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   aananoswarm_birthday_launch:
@@ -20,6 +21,7 @@ jobs:
           echo "Age: 33"
           echo "Campaign: Legal.Banannas and aln/bithub virtasys nitrate calcium Neurological-Rights Campaign"
           echo "Theme: Freedom and the right to think freely, regardless of task scheduling."
+          echo "sys-apparel: visual-trace ; learning model: .bitgoggles"
 
       - name: Policy Enforcement
         run: |
@@ -33,13 +35,13 @@ jobs:
       - name: Bridge Integrations
         run: |
           echo "Connecting to ecosystem services..."
-          echo " - Comet Browser by Perplexity Labs"
-          echo " - Perplexity Mainframe"
-          echo " - Virtanet VSC-Artemis Node"
-          echo " - ALN Protocol Interface"
-          echo " - BitHub Compliance Gateway"
-          echo " - Legal.Banannas Policy Engine"
-          echo " - ChatNative86 Comms Channel"
+          echo "Comet Browser by Perplexity Labs"
+          echo "Perplexity Mainframe"
+          echo "Virtanet VSC-Artemis Node"
+          echo "ALN Protocol Interface"
+          echo "BitHub Compliance Gateway"
+          echo "Legal.Banannas Policy Engine"
+          echo "ChatNative86 Comms Channel"
 
       - name: Deploy Celebration Module via Virtanet
         run: |
